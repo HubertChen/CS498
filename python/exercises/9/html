@@ -1,0 +1,1777 @@
+
+<!-- Nav + Main -->
+<div>
+<!-- 
+NOTE THAT THIS NEWS TEMPLATE IS SET UP FOR GROUPWORDS AND DEFINED
+WITH WIDTH OF 660 PIXELS; GREATER WIDTH WILL CAUSE INTERNET EXPLORER
+TO TRUNCATE ON THE RIGHT SIDE WHEN PRINTING.
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>ACM TechNews</title>
+	    
+	    
+	  <style type="text/css">
+		  body,td,.bodytext {
+		  	font-family: verdana, tahoma, geneva, arial;
+		  	font-size: 12px;
+		  	line-height: 1.2;
+		  	color: #333333;
+		  	}
+		  .sponsor-hr-top hr {
+
+			margin-top: 5px;
+			margin-bottom: 15px;
+			}
+		  .sponsor-hr-bottom hr {
+
+			margin-top: 0px;
+			margin-bottom: 15px;
+			}
+		  	
+		  .sidebar {
+		  	font-family: verdana, tahoma, geneva, arial;
+		  	font-size: 11px;
+		  	line-height: 1.2;
+		  	color: #000000;}
+		  .sidebar A {
+		  	font-size: 11px;
+			text-decoration: none;
+		  	color: #441630;}			
+		  .sidebar A:link {
+		  	text-decoration: none;
+		  	color: #441630;}			
+		  .sidebar A:visited {
+		  	text-decoration: none; color: #545454;}
+		  .sidebar A:active {
+		  	text-decoration: none; color: #441630;}
+	  	  .sidebar A:hover {
+	  	  	text-decoration: underline; color: #441630;}
+		  .sidebar hr {margin-top: 15px;
+			margin-bottom: 15px;
+			}
+		  /*.artTitleLink {
+		  	text-decoration: ; color:#333333;}
+		  A:link.artTitleLink {
+		  	text-decoration: ; color:#333333;}
+		  A:visited.artTitleLink {
+		  	text-decoration: ; color:#333333;}
+		  A:active.artTitleLink {
+		  	text-decoration: none; color:#333333;}
+	  	  A:hover.artTitleLink {
+	  	  	text-decoration: none; color:#333333;}*/
+
+		  .headertext {
+		  	font-family: times new roman,georgia, serif;
+		  	font-size: 12pt;
+		  	line-height: 1.2;}
+		  .bodytext2 {
+			font-family: verdana, tahoma, geneva, arial;
+			font-size: 10pt;
+			line-height: 1.2;
+			color: #ffffff;}
+		  .bodytext3 {
+			font-family: verdana, tahoma, geneva, arial;
+			font-size: 10pt;
+			line-height: 1.2;
+			color: #333366;}
+		  .sponsortext {
+		  	font-family: verdana, tahoma, geneva, arial;
+		  	font-size: 7pt;
+			line-height: 1.0;
+			color: #000000;}
+		  .datetext {
+		  	font-family: verdana, tahoma, geneva, arial;
+		  	font-size: 10pt;
+			line-height: 1.0;
+			color: #000000;}
+
+		  a {font-family: verdana, tahoma, geneva, arial;
+		  	font-size: 11px;
+			line-height: 1.2;
+			color: #005499;
+			text-decoration: underline;}
+
+
+			a:visited{color: #800080; text-decoration: underline;}
+
+
+		  .link1 {
+		  	font-family: verdana, tahoma, geneva, arial;
+		  	font-size: 8.0pt;
+			line-height: 1.2;
+			color: #ffffff;}
+		  .link1 A{
+		  	font-family: verdana, tahoma, geneva, arial;
+		  	font-size: 8.0pt;
+			text-decoration: none;
+			color: #ffffff;}
+
+		  .link1 A:link {
+		  	text-decoration: none;
+		  	color: #ffffff;}
+		  .link1 A:visited {
+		  	text-decoration: none; color: #ffffff;}
+		  .link1 A:active {
+		  	text-decoration: none; color: #ffffff;}
+	  	  .link1 A:hover {
+	  	  	text-decoration: underline; color: #ffffff;}
+
+
+		
+		  .grouphead {
+			border: 1px #015592 solid;
+			background-color: #015592;
+			width:98%;
+			color: #fff;			
+			padding: 5px;
+			margin: 0px;}
+			
+		.linksuffix {font-size: 11px;}
+		
+		.ShareString {font-size: 11px;}
+			
+   	  </style>
+   	
+   	</head>
+   	
+   	<body text="#000000">
+
+    <center>
+	<table align="center" border=0 cellspacing=0 cellpadding=2 width="670">
+		<tr align="center" valign="middle">
+			
+			<td id="TDBorderColor" bgcolor="#0068a2">
+            <table align="left" border=0 cellspacing=0 cellpadding=0 width="670">
+				<tr align="left" valign="top">
+                <td  colspan="2" >
+                <MAP NAME="banner_Map">
+                <AREA SHAPE="rect" ALT="" COORDS="616,11,651,36" HREF="http://www.acm.org/" TARGET="_blank">
+                <AREA SHAPE="rect" ALT="" COORDS="533,4,616,84" HREF="http://www.acm.org/" TARGET="_blank">
+                <AREA SHAPE="rect" ALT="" COORDS="29,21,144,69" HREF="http://www.acm.org/" TARGET="_blank">
+                <AREA SHAPE="rect" ALT="" COORDS="153,21,419,72" HREF="http://technews.acm.org/" TARGET="_blank">
+                </MAP>
+				<a href="http://technews.acm.org/" target="_blank"><img src="http://www.infoinc.com/acm/images/banner.jpg" alt="Association for Computing Machinery" width="670" height="90" border="0" USEMAP="#banner_Map" /></a><br>
+				</td>
+                </tr>
+				<tr align="center" valign="top">
+                <td colspan="2" class="link1" style="padding: 5px; color: #fff;" id="TDLinkBar" bgcolor="#65A6CD" >
+                    | <a href="http://technews.acm.org/about.cfm" style="color: #ffffff;">About</a>
+                    | <a href="http://technews.acm.org/" style="color: #ffffff;">Current Issue</a>
+                    | <a href="archives.cfm" style="color: #ffffff;">TechNews Archive</a>                    
+                    | <a href="http://technews.acm.org/app_faq.cfm" style="color: #ffffff;">TechNews Apps Support</a> 
+                    | <a href="http://membernet.acm.org/" style="color: #ffffff;">MemberNet</a> 
+                    | <a href="http://acm.org/membership/careernews/" style="color: #ffffff;">CareerNews</a> 
+                    | <a href="mailto:technews@hq.acm.org" style="color: #ffffff;">Contact Us</a> 
+                    | 
+                </td>
+			  </tr>
+				<tr align="left" valign="top">
+					<td id="TRcontent" width="490" class="bodytext" style="padding: 10px;" bgcolor="#ffffff">
+
+Welcome to the March 3, 2014 edition of ACM TechNews, providing timely information for IT professionals three times a week.<br><br>
+ACM TechNews mobile apps are available for Android phones and tablets (click <a href="https://play.google.com/store/apps/details?id=com.kiwi.technews.v2" target="_blank">here</a>) and for iPhones (click <a href="http://itunes.apple.com/us/app/acm-technews/id405041862?mt=8" target="_blank">here</a>) and iPads (click <a href="http://itunes.apple.com/us/app/acm-technews-hd/id405042989?mt=8" target="_blank">here</a>).<br /><br /> 
+
+
+
+
+<a name="top"></a>
+<p class="grouphead">
+<b>HEADLINES AT A GLANCE</b>
+</p>
+
+
+
+
+
+
+
+<ul >
+
+<li><a href="#709657">Report Calls for Better Backstops to Protect Power Grid From Cyberattacks</a></li>
+
+<li><a href="#709655">The IETF Needed a Wake-Up Call on Security, Says Chairman</a></li>
+
+<li><a href="#709381">Battery-Free Technology Brings Gesture Recognition to All Devices</a></li>
+
+<li><a href="#709436">Meet Oppia, Google's New Open Source Project That Allows Anyone to Create an Interactive Learning Experience</a></li>
+
+<li><a href="#709122">Livermore Joins With Oak Ridge and Argonne to Develop Next Supercomputers</a></li>
+
+<li><a href="#709395">Phone's Wi-Fi Hotspot Acts as SOS Beacon in Disasters</a></li>
+
+<li><a href="#709406">Mobile Voting Systems Potentially Better Than Electronic Ones: Study</a></li>
+
+<li><a href="#709101">IBM Wants to See Your Watson Mobile Apps</a></li>
+
+<li><a href="#708842">Draft Language Signals More Transparent NIST</a></li>
+
+<li><a href="#709105">DARPA Targets Counterfeit Electronics</a></li>
+
+<li><a href="#709094">Georgia Tech Project Ensures 'What You See Is What You Send'</a></li>
+
+<li><a href="#708835">13 of Today's Coolest Network Research Projects</a></li>
+    
+</ul>
+
+<br /> 
+    
+
+	
+  
+  
+
+<a name="709657"></a>
+	  <b>Report Calls for Better Backstops to Protect Power Grid From Cyberattacks</b><br /> 
+
+
+<i> The New York Times (03/02/14) Matthew L. Wald</i>
+
+
+<br /><br /> A recent Bipartisan Policy Center report found that despite increasing anxiety over the possibility of a cyberattack on the power grid, the U.S. energy industry and government are ill-equipped to counter the threat.  In addition, federal rules designed to protect the electric system from cyberattack are inadequate because they do not give companies an incentive to continually improve and adapt to a changing threat.  Although the U.S. government has focused on the high-voltage power grid, less work has been done on the lower-voltage distribution system, which could cause problems that would propagate up the chain, according to the report.  The report, which recommends establishing an organization to conduct peer-to-peer audits and disseminate best practices, was led by Michael V. Hayden, the former director of the Central Intelligence Agency.  In a panel discussion about the report on Friday, Hayden said cyberwarfare is "a domain that favors the attacker," and noted most hacking against utilities is done by people trying to steal financial data.  However, he said experts fear an act of war, or what he called "recreational espionage."  The report also examined the issue that public utility commissioners have trouble determining the value of such utility expenses.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://www.nytimes.com/2014/03/03/business/energy-environment/report-calls-for-better-backstops-to-protect-power-grid-from-cyberattacks.html?ref=technology&_r=1" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DReport%252BCalls%252Bfor%252BBetter%252BBackstops%252Bto%252BProtect%252BPower%252BGrid%252BFrom%252BCyberattacks%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23709657" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709657&title=Report%20Calls%20for%20Better%20Backstops%20to%20Protect%20Power%20Grid%20From%20Cyberattacks&summary=A%20recent%20Bipartisan%20Policy%20Center%20report%20found%20that%20despite%20increasing%20anxiety%20over%20the%20possibility%20of%20a%20cyberattack%20on%20the%20power%20grid%2C%20the%20U%2ES%2E%20energy%20industry%20and%20government%20are%20ill%2Dequipped%20to%20coun%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=Report%20Calls%20for%20Better%20Backstops%20to%20Protect%20Power%20Grid%20From%20Cyberattacks&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709657" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="709655"></a>
+	  <b>The IETF Needed a Wake-Up Call on Security, Says Chairman</b><br /> 
+
+
+<i> IDG News Service (02/28/14) Mikael Ricknas</i>
+
+
+<br /><br /> Internet Engineering Task Force (IETF) members will focus on security and how to protect users from pervasive monitoring in a meeting that began Sunday in London.  "Obviously it's important that we have reliable tools for e-commerce, banking, private communications and everything else," says IETF chairman Jari Arkko.  "My vision of the end goal is that we try to build a more secure Internet based on the assumption that there are all these threats around us."  Arkko says the IETF also wants to make security features easier to use, and encourage standards organizations to think of security from day one when developing new protocols.  In conjunction with the IETF meeting, the Internet Architecture Board and the World Wide Web Consortium are organizing a high-level workshop that will more closely examine some of these challenges, including tradeoffs between strengthening security measures and performance.  "At this meeting, we are talking about something that would enable authorization to work better in this environment," Arkko says.  "Even if you have security, you need to decide who can use the thermostat at home."<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://www.networkworld.com/news/2014/022814-the-ietf-needed-a-wake-up-279307.html" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DThe%252BIETF%252BNeeded%252Ba%252BWake%252DUp%252BCall%252Bon%252BSecurity%252C%252BSays%252BChairman%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23709655" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709655&title=The%20IETF%20Needed%20a%20Wake%2DUp%20Call%20on%20Security%2C%20Says%20Chairman&summary=Internet%20Engineering%20Task%20Force%20%28IETF%29%20members%20will%20focus%20on%20security%20and%20how%20to%20protect%20users%20from%20pervasive%20monitoring%20in%20a%20meeting%20that%20began%20Sunday%20in%20London%2E%20%20%22Obviously%20it%27s%20important%20that%20we%20ha%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=The%20IETF%20Needed%20a%20Wake%2DUp%20Call%20on%20Security%2C%20Says%20Chairman&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709655" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="709381"></a>
+	  <b>Battery-Free Technology Brings Gesture Recognition to All Devices</b><br /> 
+
+
+<i> UW News (WA) (02/27/14) Michelle Ma</i>
+
+
+<br /><br /> University of Washington computer scientists have created AllSee, a gesture-recognition system that runs without batteries and enables gesture control for electronic devices that are hidden from sight.  Existing TV signals serve as AllSee's power source and a way of picking up gesture commands.  The system uses a small sensor that attaches to an electronic device, with an ultra-low-power receiver that detects and classifies gesture data from wireless transmissions.  The sensors detect specific amplitude changes of wireless signals in the air created by various gestures.  Because the sensors use power from wireless transmissions, they use three to four times less power than existing gesture-recognition systems, enabling mobile devices to leave the gesture technology always enabled.  Unlike AllSee, existing gesture-recognition systems must be manually enabled, require that devices be within sight, and drain phone batteries if left on.  By attaching sensors to household devices, the researchers say AllSee could enable users to interact via gesture with everyday objects and connect them to the Internet as the Internet of Things becomes a reality.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://www.washington.edu/news/2014/02/27/battery-free-technology-brings-gesture-recognition-to-all-devices/" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DBattery%252DFree%252BTechnology%252BBrings%252BGesture%252BRecognition%252Bto%252BAll%252BDevices%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23709381" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709381&title=Battery%2DFree%20Technology%20Brings%20Gesture%20Recognition%20to%20All%20Devices&summary=University%20of%20Washington%20computer%20scientists%20have%20created%20AllSee%2C%20a%20gesture%2Drecognition%20system%20that%20runs%20without%20batteries%20and%20enables%20gesture%20control%20for%20electronic%20devices%20that%20are%20hidden%20from%20sight%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=Battery%2DFree%20Technology%20Brings%20Gesture%20Recognition%20to%20All%20Devices&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709381" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="709436"></a>
+	  <b>Meet Oppia, Google's New Open Source Project That Allows Anyone to Create an Interactive Learning Experience</b><br /> 
+
+
+<i> TechCrunch (02/27/14) Rip Empson</i>
+
+
+<br /><br /> Google has launched Oppia, an online, open source education project that enables users to develop interactive activities for educational purposes.  As educational content is increasingly delivered via video and short message service, Google says it often lacks opportunities for interactivity, dialogue, and feedback.  Oppia will serve as a framework to enable anyone to quickly create interactive learning experiences and add them to their site.  Google calls Oppia a "smart feedback system" that asks the learner questions and adjusts instruction based on responses.  In addition, Oppia collects information on learner interaction and content provided, which is shared with content creators to enable them to refine lessons.  Based on an extensible framework, Oppia allows developers to add their own inputs and extend the range of potential formats and response types that are compatible with the system.  The system also enables users to collaborate in developing and editing explorations, with version control.  Parameters can be linked to a particular learner, which enables teachers to build deeper interactive experiences.  Google says Oppia is not officially a Google product, suggesting the company intends for developers to take ownership while the community assumes maintenance.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://techcrunch.com/2014/02/26/meet-oppia-googles-new-open-source-project-that-lets-anyone-create-an-interactive-learning-experience/" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DMeet%252BOppia%252C%252BGoogle%2527s%252BNew%252BOpen%252BSource%252BProject%252BThat%252BAllows%252BAnyone%252Bto%252BCreate%252Ban%252BInteractive%252BLearning%252BExperience%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23709436" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709436&title=Meet%20Oppia%2C%20Google%27s%20New%20Open%20Source%20Project%20That%20Allows%20Anyone%20to%20Create%20an%20Interactive%20Learning%20Experience&summary=Google%20has%20launched%20Oppia%2C%20an%20online%2C%20open%20source%20education%20project%20that%20enables%20users%20to%20develop%20interactive%20activities%20for%20educational%20purposes%2E%20%20As%20educational%20content%20is%20increasingly%20delivered%20via%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=Meet%20Oppia%2C%20Google%27s%20New%20Open%20Source%20Project%20That%20Allows%20Anyone%20to%20Create%20an%20Interactive%20Learning%20Experience&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709436" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="709122"></a>
+	  <b>Livermore Joins With Oak Ridge and Argonne to Develop Next Supercomputers</b><br /> 
+
+
+<i> LLNL News Center (02/26/14) Donald B. Johnston</i>
+
+
+<br /><br /> The collaboration of Oak Ridge, Argonne, and Livermore (CORAL) national laboratories plans to develop next-generation supercomputers capable of performing at up to 200 peak petaflops.  CORAL is currently evaluating responses to a joint request for proposals for procurement issued in early January.  The new supercomputers would be about 10 times faster than today's most powerful high-performance computing systems, and would support the research missions at their respective labs.  At Livermore, a system called Sierra would serve the National Nuclear Security Administration's Advanced Simulation and Computing Program for stockpile stewardship.  Oak Ridge and Argonne will utilize systems that fulfill the needs of their Department of Energy Office of Science missions under the Advanced Scientific Computing Research program.  The technological innovations required for CORAL systems call for a deliberate and strategic investment plan.  There are technological challenges to building the systems, such as containing power requirements, making sure it is reliable and resilient, and ensuring memory bandwidth is sufficient.  The final decision on developing the supercomputers will be based on the small prototype systems that are built by the selected vendors.  CORAL, which wants to produce three systems by 2017-2018, says the project could be key to the development of exascale systems.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="https://www.llnl.gov/news/aroundthelab/2014/Feb/ATL_22614_computers.html#.Uw9RWLTwBIQ" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DLivermore%252BJoins%252BWith%252BOak%252BRidge%252Band%252BArgonne%252Bto%252BDevelop%252BNext%252BSupercomputers%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23709122" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709122&title=Livermore%20Joins%20With%20Oak%20Ridge%20and%20Argonne%20to%20Develop%20Next%20Supercomputers&summary=The%20collaboration%20of%20Oak%20Ridge%2C%20Argonne%2C%20and%20Livermore%20%28CORAL%29%20national%20laboratories%20plans%20to%20develop%20next%2Dgeneration%20supercomputers%20capable%20of%20performing%20at%20up%20to%20200%20peak%20petaflops%2E%20%20CORAL%20is%20curren%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=Livermore%20Joins%20With%20Oak%20Ridge%20and%20Argonne%20to%20Develop%20Next%20Supercomputers&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709122" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="709395"></a>
+	  <b>Phone's Wi-Fi Hotspot Acts as SOS Beacon in Disasters</b><br /> 
+
+
+<i> New Scientist (02/27/14) Paul Marks</i>
+
+
+<br /><br /> Researchers at the Fraunhofer Institute for Applied Information Technology have developed an app that turns a smartphone into a wireless SOS beacon that could help rescuers find people who have been trapped in collapsed buildings after natural disasters or bombings.  The researchers say they noticed the messages people sometimes broadcast by changing the name of their home Wi-Fi networks and thought a short SOS message could be inserted into the name field of a phone's Wi-Fi hotspot as well, which broadcasts a radio signal without requiring Internet access.  Rescuers can then read the message with their own Wi-Fi app.  The researchers developed a victim app and a seeker app, both of which are based on robust and receivable Wi-Fi radio.  With the victim app, a trapped person can write a 27-character message, and a seeker app up to 100 meters away can pick it up, according to the researchers.  The researchers want the victim app to be incorporated in Android or iOS operating systems because users do not expect to be in a disaster and are unlikely to download the app ahead of time.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://www.newscientist.com/article/dn25124-phones-wifi-hotspot-acts-as-sos-beacon-in-disasters.html" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DPhone%2527s%252BWi%252DFi%252BHotspot%252BActs%252Bas%252BSOS%252BBeacon%252Bin%252BDisasters%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23709395" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709395&title=Phone%27s%20Wi%2DFi%20Hotspot%20Acts%20as%20SOS%20Beacon%20in%20Disasters&summary=Researchers%20at%20the%20Fraunhofer%20Institute%20for%20Applied%20Information%20Technology%20have%20developed%20an%20app%20that%20turns%20a%20smartphone%20into%20a%20wireless%20SOS%20beacon%20that%20could%20help%20rescuers%20find%20people%20who%20have%20been%20t%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=Phone%27s%20Wi%2DFi%20Hotspot%20Acts%20as%20SOS%20Beacon%20in%20Disasters&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709395" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="709406"></a>
+	  <b>Mobile Voting Systems Potentially Better Than Electronic Ones: Study</b><br /> 
+
+
+<i> NDTV (India) (02/26/14)</i>
+
+
+<br /><br /> Rice University researchers have designed a mobile voting system optimized for use on smartphones and have tested it against traditional voting platforms.  The researchers found no reliable differences between the smartphone-based voting system and other voting platforms with regard to efficiency and usability.  However, their study found smartphone owners made fewer errors while using the mobile voting system.  A potential benefit of mobile voting would be the opportunity to cast votes when and where it is convenient for the voter.  However, several critical security and authentication issues would need to be addressed to make mobile voting work, says Rice University professor Michael Byrne.  For example, he says research may be needed to develop systems that support secure and anonymous submission of ballots.  "There may be compromise solutions that involve the mobile user interface that do not have the same security requirements, though they would not be as convenient," Byrne says.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://gadgets.ndtv.com/mobiles/news/mobile-voting-systems-potentially-better-than-electronic-ones-study-488788" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DMobile%252BVoting%252BSystems%252BPotentially%252BBetter%252BThan%252BElectronic%252BOnes%253A%252BStudy%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23709406" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709406&title=Mobile%20Voting%20Systems%20Potentially%20Better%20Than%20Electronic%20Ones%3A%20Study&summary=Rice%20University%20researchers%20have%20designed%20a%20mobile%20voting%20system%20optimized%20for%20use%20on%20smartphones%20and%20have%20tested%20it%20against%20traditional%20voting%20platforms%2E%20%20The%20researchers%20found%20no%20reliable%20difference%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=Mobile%20Voting%20Systems%20Potentially%20Better%20Than%20Electronic%20Ones%3A%20Study&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709406" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="709101"></a>
+	  <b>IBM Wants to See Your Watson Mobile Apps</b><br /> 
+
+
+<i> InfoWorld (02/26/14) Serdar Yegulalp</i>
+
+
+<br /><br /> IBM has announced its Watson Mobile Developer Challenge for mobile software developers to create applications that use its Watson cognitive computing platform on mobile devices.  At the end of the three-month competition, IBM will select three winning apps for further marketing and development, but winners will not be required to release their products under the IBM brand.  One of the most important benefits for mobile developers in using Watson is "the pedigree of the answer--why Watson answered a query that way," says IBM fellow Jerry Cuomo.  He says one developer is considering using Watson in retail as a way to do advanced product recommendations that explain the reasoning behind similar purchases, while another is thinking of an app that a doctor could use to determine which treatment option might be most appropriate.  However, IBM hopes developers will think of novel and unanticipated uses for Watson.  "The more you put something out, the broader you make it, the less boundaries you put on it, the more open innovation you have--the more things you wouldn't expect," Cuomo says.  In addition, IBM hopes the competition will speed feedback from Watson developers, so IBM can ensure it has appropriate and useful Watson APIs.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://www.infoworld.com/t/cloud-computing/ibm-wants-see-your-watson-mobile-apps-237230" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DIBM%252BWants%252Bto%252BSee%252BYour%252BWatson%252BMobile%252BApps%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23709101" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709101&title=IBM%20Wants%20to%20See%20Your%20Watson%20Mobile%20Apps&summary=IBM%20has%20announced%20its%20Watson%20Mobile%20Developer%20Challenge%20for%20mobile%20software%20developers%20to%20create%20applications%20that%20use%20its%20Watson%20cognitive%20computing%20platform%20on%20mobile%20devices%2E%20%20At%20the%20end%20of%20the%20thr%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=IBM%20Wants%20to%20See%20Your%20Watson%20Mobile%20Apps&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709101" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="708842"></a>
+	  <b>Draft Language Signals More Transparent NIST</b><br /> 
+
+
+<i> Federal Computer Week (02/25/14) Frank Konkel</i>
+
+
+<br /><br /> The U.S. National Institute of Standards and Technology (NIST) has released new guidance on cryptographic standards that emphasizes transparency, openness, technical merit, balance, and integrity.  The draft guidance comes in the wake of fallout over revelations the U.S. National Security Agency (NSA) subverted NIST-adopted computer encryption standards.  NIST officials hope to win back the trust of the cybersecurity community and the general public through such efforts.  The draft guidance calls for access to essential information on standards-related activities and venues for all stakeholders in the private sector, academia, and the public, with a commitment from NIST to be transparent during the development and documentation of cryptographic standards.  Moreover, it makes clear NIST will continue to work with NSA due to its expertise in cryptography and its statutory obligations to consult with the agency on standards.  NIST will accept public feedback on the draft guidance until April 18.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://fcw.com/articles/2014/02/25/nist-guidance.aspx" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DDraft%252BLanguage%252BSignals%252BMore%252BTransparent%252BNIST%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23708842" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23708842&title=Draft%20Language%20Signals%20More%20Transparent%20NIST&summary=The%20U%2ES%2E%20National%20Institute%20of%20Standards%20and%20Technology%20%28NIST%29%20has%20released%20new%20guidance%20on%20cryptographic%20standards%20that%20emphasizes%20transparency%2C%20openness%2C%20technical%20merit%2C%20balance%2C%20and%20integrity%2E%20%20Th%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=Draft%20Language%20Signals%20More%20Transparent%20NIST&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23708842" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="709105"></a>
+	  <b>DARPA Targets Counterfeit Electronics</b><br /> 
+
+
+<i> InformationWeek (02/25/14) Elena Malykhina</i>
+
+
+<br /><br /> The U.S. Defense Advanced Research Projects Agency (DARPA) is developing a tool to verify the trustworthiness of electronic components.  The new DARPA program, called Supply Chain Hardware Integrity for Electronics Defense (SHIELD), focuses on the creation of a small component, known as a dielet, for authenticating electronic parts at any step of the supply chain.  DARPA wants hardware that contains a full encryption engine and sensors to detect tampering, and also has the ability to attach to current electronic components.  The dielet would be inserted into an electronic component's package at a manufacturing site or attached to existing components, according to DARPA.  In addition, technology coming from the SHIELD program would guarantee protection against threats related to counterfeit electronics.  SHIELD technology also would protect against clones and copies, as well as parts that have been repackaged for unauthorized applications.  "What SHIELD is seeking is a very advanced piece of hardware that will offer an on-demand authentication method never before available to the supply chain," says DARPA's Kerry Bernstein.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://www.informationweek.com/government/leadership/darpa-targets-counterfeit-electronics/d/d-id/1113974" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DDARPA%252BTargets%252BCounterfeit%252BElectronics%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23709105" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709105&title=DARPA%20Targets%20Counterfeit%20Electronics&summary=The%20U%2ES%2E%20Defense%20Advanced%20Research%20Projects%20Agency%20%28DARPA%29%20is%20developing%20a%20tool%20to%20verify%20the%20trustworthiness%20of%20electronic%20components%2E%20%20The%20new%20DARPA%20program%2C%20called%20Supply%20Chain%20Hardware%20Integrity%20f%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=DARPA%20Targets%20Counterfeit%20Electronics&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709105" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="709094"></a>
+	  <b>Georgia Tech Project Ensures 'What You See Is What You Send'</b><br /> 
+
+
+<i> Georgia Tech News Center (02/23/14)</i>
+
+
+<br /><br /> Georgia Institute of Technology (Georgia Tech) researchers have developed Gyrus, security software that takes extra steps to prevent malware from sending spam emails and instant messages, and blocking unauthorized commands such as money transfers.  The software is based on the observation that for most text-based applications, the user's intent will be displayed on the screen, and the user will be able to make changes.  "The idea of defining correct behavior of an application by capturing user intent is not entirely new, but previous attempts in this space use an overly simplistic model of the user's behavior," says Georgia Tech Ph.D. student Yeongjin Jang.  He says Gyrus captures data such as user actions, text content, and application semantics to make the system send only user-intended network traffic.  Gyrus also indirectly determines user intent from the screen that is displayed to the user.  Gyrus captures the user's intent and interactions with an application, and verifies the resulting output can be mapped back to the user's intention, resulting in the application ensuring accurate transactions even in the presence of malware.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://www.cc.gatech.edu/news/georgia-tech-project-ensures-what-you-see-what-you-send%E2%80%99" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3DGeorgia%252BTech%252BProject%252BEnsures%252B%2527What%252BYou%252BSee%252BIs%252BWhat%252BYou%252BSend%2527%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23709094" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709094&title=Georgia%20Tech%20Project%20Ensures%20%27What%20You%20See%20Is%20What%20You%20Send%27&summary=Georgia%20Institute%20of%20Technology%20%28Georgia%20Tech%29%20researchers%20have%20developed%20Gyrus%2C%20security%20software%20that%20takes%20extra%20steps%20to%20prevent%20malware%20from%20sending%20spam%20emails%20and%20instant%20messages%2C%20and%20blocking%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=Georgia%20Tech%20Project%20Ensures%20%27What%20You%20See%20Is%20What%20You%20Send%27&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23709094" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+    
+
+	
+  
+  
+
+<a name="708835"></a>
+	  <b>13 of Today's Coolest Network Research Projects</b><br /> 
+
+
+<i> Network World (02/26/14) Bob Brown</i>
+
+
+<br /><br /> Research labs at universities and vendors are developing a wide variety of technologies, from networked honey bees to evidence of time travel.  For example, Michigan Technological University researchers have used three Internet search implementations to look for signs of content that should not have been known about at the time it was posted.  Meanwhile, Massachusetts Institute of Technology researchers have developed an algorithm that is more computationally effective than other approaches, because it scales in a near-linear fashion.  Microsoft researchers are developing a smartphone app that can tell whether the device is being used by a driver or passenger, and the U.S. Department of Energy has invested more than $30 million to help devise systems to detect and stop cyberattacks on critical infrastructure such as utilities and power grids.  University of Michigan researchers have studied the timing of cyberattacks, examining the incidents from the perspective of a cyberattacker but providing information that might be used to sniff out such attacks.  Meanwhile, Australia's Commonwealth Scientific and Industrial Research Organization is equipping up to 5,000 honey bees with tiny radio-frequency identification sensors to monitor the insects with the goal of improving pollination and productivity on farms and gaining insights on widespread colony collapse.<br />
+
+
+<div style="margin-top:5px;">
+
+
+
+
+
+		
+		<a href="http://www.networkworld.com/news/2014/022614-research-projects-279096.html" target="_blank" >View Full Article</a> | 
+		
+	  
+
+<a href="#top">Return to Headlines</a> |
+
+
+
+
+
+          
+	
+    <span class="ShareString">Share</span>
+    
+        
+
+            
+         
+        
+        
+        <a href="http://www.facebook.com/share.php?u=http%3A%2F%2Fwww%2Einfoinc%2Ecom%2FFBShare%2Ecfm%3Ftitle%3D13%252Bof%252BToday%2527s%252BCoolest%252BNetwork%252BResearch%252BProjects%26desc%3D%26loc%3Dhttp%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%26bg%3D%26FBFolderName%3D%26FBLogoName%3D%23708835" target="_blank" title="share on Facebook"><img src="http://www.infoinc.com/images/facebook_share_icon.gif" border="0" width="16" height="16" alt="Facebook" style="margin: -3px; padding: -3px;" /></a>&nbsp;
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+        
+		
+			
+                
+            
+        
+
+		<a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23708835&title=13%20of%20Today%27s%20Coolest%20Network%20Research%20Projects&summary=Research%20labs%20at%20universities%20and%20vendors%20are%20developing%20a%20wide%20variety%20of%20technologies%2C%20from%20networked%20honey%20bees%20to%20evidence%20of%20time%20travel%2E%20%20For%20example%2C%20Michigan%20Technological%20University%20researche%2E%2E%2E&source=ACM%20TechNews" target="_blank" title="share on LinkedIn"><img src="http://www.infoinc.com/images/linkedIn.jpg" alt="LinkedIn" width="16" height="16" vspace="0" border="0" style="margin: -3px; padding: -3px;"></a>&nbsp;
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        			
+        
+    
+        
+
+            
+         
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <a href="https://twitter.com/share?text=13%20of%20Today%27s%20Coolest%20Network%20Research%20Projects&url=http%3A%2F%2Ftechnews%2Eacm%2Eorg%2Farchives%2Ecfm%3Ffo%3D2014%2D03%2Dmar%2Fmar%2D03%2D2014%2Ehtml%23708835" target="_blank" title="share on Twitter"><img src="http://www.infoinc.com/images/twitter.jpg" width="16" height="16" vspace="0" border="0" alt="Twitter" style="margin: -3px; padding: -3px;"></a>&nbsp;
+        
+        
+        
+        			
+        
+    
+    
+
+
+
+</div>
+
+
+<br /> <br /> 
+Abstract News &copy;	Copyright 2014 <A HREF="http://www.infoinc.com/copyright.html" target="_blank">INFORMATION, INC.</A><BR>
+
+<a href="http://www.infoinc.com/assn_news/requestinfo.cfm?mode=poweredby&sid=25E1CA"><img src="http://www.infoinc.com/images/poweredBy_small115.jpg" border="0" vspace="5" alt="Powered by Information, Inc." /></a><br>
+<br />
+
+
+
+
+
+<p><hr /><p>
+<center>
+To submit feedback about ACM TechNews, contact: <a href="mailto:technews@hq.acm.org">technews@hq.acm.org</a><br>
+
+
+
+
+Current ACM Members:  <a href="https://myacm.acm.org">Unsubscribe/Change</a> your email subscription by logging in at myACM.<br>
+
+Non-Members:  <a href="https://optout.acm.org/listserv_index.cfm?ln=technews">Unsubscribe</a>
+
+
+</center><br>
+
+
+
+
+
+
+
+
+</td>
+
+<!-- ========================= BEGIN SIDEBAR =========================== -->
+
+<td width="160" style="padding: 10px;" bgcolor="#DEECF4" id="TDsidebar">
+
+<div class="sidebar">
+
+
+
+
+
+		<center>
+   
+      
+      
+      
+      
+      
+
+
+      
+      
+        
+      <a href="http://www.infoinc.com/c1/sponsors/stats/CountClicks.cfm?spid=41973&c=9351" target="_blank" ><img src="http://www.infoinc.com/c1/sponsors/ads/ACMBooks_ad_01_160x600_vert_2.jpg" hspace="0" vspace="0" border="0" alt=""  /></a>
+      
+      
+     	
+		  <div style="height: 15px;">&nbsp;</div>
+		
+      
+      
+      
+      
+      
+      
+      
+
+
+      
+      
+        
+      <a href="http://www.infoinc.com/c1/sponsors/stats/CountClicks.cfm?spid=41973&c=8821" target="_blank" ><img src="http://www.infoinc.com/c1/sponsors/ads/LearnSols2014_160x160-academic-static.gif" hspace="0" vspace="0" border="0" alt="Register for Learning Solutions 2014 Today!"  /></a>
+      
+      
+     	
+		  <div style="height: 15px;">&nbsp;</div>
+		
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+	</center>
+	
+
+
+
+ 
+
+<div align="center">
+<a href="https://www.facebook.com/pages/ACM-Association-for-Computing-Machinery/17927643151?ref=ts" target="_blank" ><img src="http://www.infoinc.com/c1/sponsors/ads/find_us_on_facebook_badge4.gif" hspace="0" vspace="0" border="0" alt="Facebook"  /></a>
+
+<div style="height: 15px;">&nbsp;</div>
+
+<a href="http://www.linkedin.com/groups?gid=36836" target="_blank" ><img src="http://www.infoinc.com/c1/sponsors/ads/LinkedIn_logo.jpg" hspace="0" vspace="0" border="0" alt="LinkdedIn"  /></a>
+
+<div style="height: 15px;">&nbsp;</div>
+
+<a href="http://twitter.com/TheOfficialACM" target="_blank" ><img src="http://www.infoinc.com/c1/sponsors/ads/twitter_logo150.gif" hspace="0" vspace="0" border="0" alt="TheOfficialACM Twitter"  /></a>
+
+<div style="height: 15px;">&nbsp;</div>
+
+<a href="http://rss.acm.org/technews/technews.xml" target="_blank" ><img src="http://www.infoinc.com/images/Rss-Feed-Social-Bar-150.PNG" hspace="0" vspace="0" border="0" alt="RSS Button"  /></a>
+</div>
+
+<hr />
+ACM Media Sales<br>
+<br>
+If you are interested in advertising in ACM TechNews or other ACM publications, please contact ACM Media Sales at <a href="mailto:acmmediasales@acm.org"><u>acmmediasales@acm.org</u></a> or (212) 626-0686, or visit <a href="http://www.acm-media.org" target="_blank"><u>ACM Media</u></a> for more information.
+<hr>
+
+
+Association for Computing Machinery<br>
+2 Penn Plaza, Suite 701<br>
+New York, NY 10121-0701<br>
+Phone: 1-800-342-6626<br>
+(U.S./Canada)<br>
+
+
+
+<!-- Tracking Gif to be removed by Haritini -->&nbsp;</div>
+<!-- end of Nav + Main -->
+
+
+<div align="center">
+<p>
+<a href="http://www.acm.org/about" target="_blank">About ACM</a> | 
+<a href="http://www.acm.org/about/contact-us/" target="_blank">Contact us</a> | 
+<a href="http://www.acm.org/about/about?pageIndex=4" target="_blank">Boards & Committees</a> | 
+<a href="http://www.acm.org/press-room" target="_blank">Press Room</a> | 
+<a href="http://www.acm.org/membership" target="_blank">Membership</a> | 
+<a href="http://www.acm.org/about/privacy-policy" target="_blank">Privacy Policy</a> | 
+<a href="http://www.acm.org/about/code-of-ethics" target="_blank">Code of Ethics</a> | 
+<a href="http://www.acm.org/about/sysavail" target="_blank">System Availability</a> | 
+<a href="http://www.acm.org/publications/copyright-statement" target="_blank">Copyright &copy; 2014, ACM, Inc.</a>
+</p>
+
+</div>
+</div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35328931-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
+

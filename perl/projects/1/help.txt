@@ -1,0 +1,49 @@
+
+Perl Project - Retrieve Web Advisor Course TimeTable
+
+Examples
+
+	perl -w webadv_timetable.pl "14/SP - Spring 2014" "COMPUTER SCIENCE"
+		- Displays the HTML document that displays the course timetable
+		for Computer Science, Spring 2014
+
+	perl -w webadv_timetable.pl --help
+		- Displays the help document for the webadv_timetable.pl
+		  program
+
+	perl -w webadv_timetable.pl --subjects
+		- Displays the currently available subject for Monmouth
+		  University
+
+	perl - webadv_timetable.pl --terms
+		- Displays the currently available terms for Monmouth
+		  University 
+
+Description
+	
+	A perl script used to generate one of the following:
+		1. A list of subjects offered at Monmouth University
+		2. A list of terms offered at Monmouth University
+		3. A HTML document of the available courses available given 
+		a correct subject and term
+
+	This script was developed as an assignment for the CS498-01 course.
+	
+Options
+
+	--help			Displays a help file
+	
+	--subjects		Displays a list of subjects at Monmuth University
+
+	--terms			Displays a list of terms at Monmouth University
+
+	{term} {subject}	Displays the HTML that displays the course
+				timetable for the term and subject
+
+Author
+
+	Developed by Hubert Chen and Josh Siemanowicz
+
+Resources
+	http://rockhopper.monmouth.edu/cs/jchung/cs498gpl/perl_project	
+

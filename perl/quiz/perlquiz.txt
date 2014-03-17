@@ -1,0 +1,152 @@
+Name: Hubert Chen
+
+CS-498: Scripting Languages
+
+Spring 2014
+Perl Quiz
+
+Insert your name above.
+
+Insert your answers in this quiz file using gedit or other plain text
+editor. Word documents and .rtf files will be rejected.
+
+Submit this quiz file and other files you are asked to create. Create
+the ~/cs498gpl/perl/quiz directory by running
+
+   $ mkdir -p ~/cs498gpl/perl/quiz
+
+Save perlquiz.txt and all other files to your ~/cs498gpl/perl/quiz
+directory and run the 'submit.cs498gpl' script by the deadline.
+
+*******************************************************************************
+
+Problem 1:
+
+See the following Perl code and insert your answers below.
+A beginning Perl programmer wrote the following program:
+
+
+         $verylongvarname = 10;
+
+         # increment $verylongvarname by 1:
+         $verylongvarnaem = $verylongvarname + 1;
+
+         # print incremented $verylongvarname:
+         print "\$verylongvarname:  $verylongvarname";
+
+
+a) Yes, there is an error in the above program. What was the intended
+   output? What was the actual output?
+
+	The error was that on line 4, the programmer mistyped the variable
+name. The intended output is "$verylongvarname: 11". The actual output is
+"$verylongvarname: 10".
+
+
+b) How does this situation expose a potential drawback of the
+   dynamic or "weak" type system that programming languages such as
+   Perl provide? (100 words minimum)
+
+	Depending on how you view it, this could be considered a weakness for
+dynamic programming languages. As we just seen from Problem 1, the ability to
+detect variable name differences is non-existent. This can pose a problem for
+programmers because it is very hard to detect the subtle differences in
+variable names. Another issue that can occur from this is that other types can
+be saved to the variable. For example, the $verylongvarname is not just
+limited to an integer, it could also hold a string. However, one way to combat
+this is to use the "use strict" command. At compile time, it would cause perl
+to throw an error saying that $verylongvarnaem is undeclared. 
+
+
+c) How would the use of the "use strict;" directive help in this
+   situation?
+
+	Perl would output an error saying that the variable $verylongvarnaem
+is undeclared. 
+
+
+d) How would the use of the "-w" (warnings) flag help when running this
+   buggy program?  (i.e. perl -w programname.pl)
+
+	Perl would alert us of a possible type on line 4.
+
+*******************************************************************************
+
+Problem 2:
+
+a) What is the differences between the 'chop' and 'chomp' Perl statements?
+
+	chomp is usually used to remove new line characters. chop is used to
+remove the last element of a list or the last character of a string.
+
+b) See the following statement.
+
+      my ($last, $first, $email) = split /\s+/, $student;
+
+   Assume $student contains the string
+
+         "Alpaugh, Weldon  s0396012@monmouth.edu"
+
+   What Perl data type does the above 'split' function return? (select
+   one)
+
+      (1) array <- THIS
+
+      (2) list
+
+      (3) hash
+
+      (4) string
+
+
+c) (Select one answer below.) The "\s+" above is called a
+
+      (1) escape sequence
+
+      (2) regular expression
+
+      (3) delimiter
+
+      (4) both (2) and (3) <- THIS
+
+
+d) If "\s+" is a regular expression, which of the following strings
+   would contain a match for \s+ ? (Select all that apply. Ignore all
+   characters before "Alpaugh" and after ".edu".)
+
+      (1) Alpaugh, Weldon, s0396012@monmouth.edu <- THIS
+
+      (2) Alpaugh,Weldon,s0396012@monmouth.edu
+
+      (3) Alpaugh,      Weldon,      s0396012@monmouth.edu <- THIS
+
+      (4) Alpaugh,      Weldon,s0396012@monmouth.edu <- THIS
+
+
+
+e) As a result of the above 'split' statement, the variable $last will
+   contain "Alpaugh,".  How would you remove the trailing comma from
+   $last?
+
+	chop($last)
+
+
+*******************************************************************************
+
+Problem 3:
+
+You should have a file called 'english.sorted' from previous Perl
+exercises.
+
+Write and save the program 'perlquiz.pl' to output all words in
+'english.sorted' that begin with an uppercase letter.
+
+*******************************************************************************
+
+Extra Credit: (+10%)
+
+Write and save the program 'perlquizext.pl' to output all words in
+'english.sorted' that contain repeated letters, regardless of case,
+such as "Aarhus" or "abcissa". You must use regular expression
+matching.
+

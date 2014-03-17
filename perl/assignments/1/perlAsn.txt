@@ -1,0 +1,38 @@
+Perl Assignment
+
+1.
+	a.
+ 
+	 - When there are more elements on the right, the elements get ignored and are not assigned to the variables $a or $b
+
+	- When there are more elements on the left, the variables $a and $b have the first two values in the list
+
+	- When a scalar is placed on either side of the list, it becomes a syntax error.
+	
+	b.
+
+	- The values between ('aa' .. 'bb') are aa,ab,ac,ad,ae,af,ag,ah,ai,aj,ak,al,am,an,ao,ap,aq,ar,as,at,au,av,aw,ax,ay,az,ba,bb
+
+	- The values between ('a0' .. 'b9') are a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,b0,b1,b2,b3,b4,b5,b6,b7,b8,b9
+
+2.
+	- Returns a true if $var contains only word characts ([a-zA-Z0-9_]), else returns false. 
+	
+	- Returns true if it doesnt start with a '#' character, else returns false
+
+	- Replaces any multiple '#' characters with a single '#' character
+
+3. 
+	The 'use strict' pragma can help automatically identify bugs in your code. One of the requirements is that you have to declare before using it.
+
+4. 
+	- "Perl was designed with TIMTOWTDI in mind as Larry Wall designed it to try and give as much freedom to the user as possible with the 
+	hope of allowing expressiveness and beautifully designed code. " 
+	
+	Source: http://perl.wikia.com/wiki/TIMTOWTDI
+
+	- TIMTOWTDI can be a strength because if you are really good with perl, then you can get things done more efficiently. And it could
+	also be more fun
+
+	- One weakness is due to its conformity, it is harder to read. Although one can develop a clever and efficient way to get something done in Perl,
+	 it can also lead future programmers to have a hard time understanding the intention of the original programmer.

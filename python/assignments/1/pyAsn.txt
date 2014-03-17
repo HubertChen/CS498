@@ -1,0 +1,35 @@
+Hubert Chen
+CS498 - Python Assignment
+
+1. Find out how to use system calls and command substitution in Python 
+
+	To write System calls use the call() function from the subprocess
+	module. To do a command substitution use teh check_output() function from the
+	subprocess. 
+
+2. OK
+
+3. OK
+
+4. What is the functional programming paradigm? Show and explain an example of functional 
+   programming in Python. List the information sources you used in your answer. 
+	
+	The functional programming paradigm is the idea to solve problems using functions.
+   The opposite of the functional paradigm is the imperative paradigm. Imperative programming
+   involves changing the state of objects and using loops, conditionals and function calls.
+   Functional programming involves using recursion of functions and does not track changes to
+   object states.
+
+   Given L = [1,2,3,4,5]
+   
+   Imperative:
+
+	sum = 0 
+	for x in L:
+		sum += x
+
+   Functional:
+
+	def add(x,y):
+		return x+y
+	sum = reduce(add, L)
